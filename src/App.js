@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Add from './components/Add';
 import View from './components/View';
+import Search from './components/Search';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Add/>}/>
         <Route path='/v' element={<View/>}/>
+        <Route path='/s' element={<Search/>}/>
 
       </Routes>
       </BrowserRouter>
